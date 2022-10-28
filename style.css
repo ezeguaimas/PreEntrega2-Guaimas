@@ -1,12 +1,12 @@
 /*font-family: 'Inter Tight', sans-serif;
 font-family: 'Vollkorn', serif;*/
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.global-container{
-  background-image: linear-gradient(to right, #3d3c42 , #ffffea);
+.global-container {
+  background-image: linear-gradient(to right, #3d3c42, #ffffea);
 }
 
 .brand-propia img {
@@ -17,12 +17,11 @@ font-family: 'Vollkorn', serif;*/
 .top-fila {
   display: flex;
   flex-direction: row;
-  background-image: linear-gradient(to right, rgb(61, 60, 66) , #ffffea);
+  background-image: linear-gradient(to right, rgb(61, 60, 66), #ffffea);
 }
 .llamar i {
   font-size: 50px;
   color: darkred;
-
 }
 
 @media screen and (min-width: 540px) {
@@ -36,7 +35,6 @@ font-family: 'Vollkorn', serif;*/
     font-size: 140%;
     font-family: "Inter Tight", sans-serif;
     font-weight: bold;
-    
   }
   .nav-list-propia li {
     padding: 5px;
@@ -53,32 +51,29 @@ font-family: 'Vollkorn', serif;*/
   .nav-propia {
     background-color: #f2f2f2;
   }
-  .equipo div img:hover{
+  .equipo div img:hover {
     transform: rotateY(720deg);
     transition: all 2s;
   }
-  
 }
 
 @media screen and (max-width: 540px) {
-    .logo-top {
-        display: none;
+  .logo-top {
+    display: none;
   }
-    .top-fila {
-        display: none;
+  .top-fila {
+    display: none;
   }
   .carousel-item-propio img {
     width: 100%;
-    
   }
 
   .nav-list-propia a {
     font-family: "Inter Tight", sans-serif;
   }
-  .nav-propia{
-    background-image: linear-gradient(to right, rgb(61, 60, 66) , #ffffea);
+  .nav-propia {
+    background-image: linear-gradient(to right, rgb(61, 60, 66), #ffffea);
   }
-  
 }
 
 .nav-list-propia {
@@ -98,14 +93,13 @@ font-family: 'Vollkorn', serif;*/
   margin: 10px;
   padding: 5px;
   width: 100%;
-  justify-content:flex-end;
+  justify-content: flex-end;
 }
 
 .iconosRedes i {
   padding: 3px;
   font-size: 45px;
   color: rgb(55, 55, 77);
-  
 }
 
 .iconosRedes ul li {
@@ -128,7 +122,7 @@ font-family: 'Vollkorn', serif;*/
 }
 
 .nav-propia ul li:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .section-index-carousel {
@@ -139,44 +133,44 @@ font-family: 'Vollkorn', serif;*/
 
 .borde-contraste {
   color: black;
-  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,
+    0 0 0.2em white;
 }
 
 .h1-propio {
-    text-align: center;
-    font-family: "Vollkorn", serif;
-    font-weight: 600;
-    margin: 0;
-    padding-top: 3%;
-    padding-bottom: 3%;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .h2-propio {
-    text-align: center;
-    font-family: "Vollkorn", serif;
-    font-size: 250%;
-    padding-top: 3%;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-size: 250%;
+  padding-top: 3%;
 }
 
 main p {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 5vh;
-    padding-top: 0;
-    font-family: "Inter Tight", sans-serif;
-    font-size: large;
-    text-align: justify;
-    
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 5vh;
+  padding-top: 0;
+  font-family: "Inter Tight", sans-serif;
+  font-size: large;
+  text-align: justify;
 }
 
 footer {
   background-color: #3d3c42;
 }
-.iframe-footer { 
+.iframe-footer {
   overflow: hidden;
 }
-.practicas { 
+.practicas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -187,33 +181,33 @@ footer {
   display: flex;
   position: relative;
   display: inline-block;
-  
-  }
+}
 
 .area-practica-areas img {
   width: 100%;
   margin-bottom: 3px;
-  
 }
 
-.areas-img-h3{
+.areas-img-h3 {
   display: flex;
   position: absolute;
   top: 10px;
   left: 30px;
   text-align: center;
   color: black;
-  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,
+    0 0 0.2em white;
   font-size: 2rem;
 }
-.parrafo-area-areas{
+.parrafo-area-areas {
   display: flex;
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -10%);
   color: black;
-  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+  text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white,
+    0 0 0.2em white;
   text-align: justify;
 }
 
@@ -243,7 +237,7 @@ section img {
   margin-top: 3vh;
 }
 
-.h3-section{
+.h3-section {
   text-align: center;
 }
 
@@ -252,7 +246,6 @@ section img {
   height: 40vw;
   margin: auto;
   border-radius: 50%;
-
 }
 .equipo div span {
   display: flex;
